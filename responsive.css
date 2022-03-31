@@ -6,6 +6,6 @@
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
   .calculator-outside {
-    margin: 50px auto;
+    margin: 100px auto;
   }
 }
