@@ -5,6 +5,9 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+  body {
+    background-size: cover;
+  }
   .calculator-outside {
     margin: 100px auto;
   }
