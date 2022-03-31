@@ -1,0 +1,147 @@
+body {
+    background-image: url(image/background.jpg);
+    background-size: cover;
+}
+
+.calculator-outside {
+    width: 270px;
+    height: 440px;
+    text-align: center;
+    margin: 100px auto;
+    border-radius: 24px;
+    background-color: #5532b8;
+    border: 12px solid #5532b8;
+}
+.calculator {
+    text-align: center;
+    width: 270px;
+    height: 380px;
+    padding: 30px 0px;
+    background-color: #eadfff;
+    border-radius: 14px;
+}
+
+.calculator-screen {
+    width: 78%;
+    height: 100px;
+    background-color: #fff;
+    color: black;
+    text-align: right;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 14px;
+    box-shadow: 0 0.5px 0.5px 0 rgba(100, 81, 81, 0.144), 0 6px 20px 0 rgba(90, 66, 66, 0.19);
+}
+
+.calculator-keys{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+    padding-left: 29.5px;
+}
+
+.row {
+    display: flex;
+}
+
+.row-bottom {
+    display: flex;
+}
+button {
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 1px 0 rgba(100, 81, 81, 0.144), 0 6px 20px 0 rgba(90, 66, 66, 0.19);
+    margin: 4px 4px;
+    padding: 1px 0px;
+}
+.number{
+    position: relative;
+    display: inline-block;
+    color: black;
+    width: 45px;
+    height: 45px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 13px;
+    background: #fff;
+    line-height: 40px;
+    text-align: center;
+}
+
+.percentage, .operator, .backspace, .number-zero-btn, .decimal {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 13px;
+    font-size: 20px;
+    font-weight: 540;
+    line-height: 40px;
+    text-align: center;
+    color: #FB908E;
+    background-color: #fff;
+}
+.all-clear {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 13px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    color: #FB908E;
+    background-color: #fff;
+}
+.equal-sign {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 98px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 540;
+    line-height: 40px;
+    text-align: center;
+    color: #FB908E;
+    background-color: #fff;
+}
+.number:hover, .number-zero-btn:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.number:active, .number-zero-btn:active {
+    background-color: rgb(199, 199, 199);
+    color: #fff;
+}
+
+.operator:hover, .all-clear:hover, .percentage:hover, .decimal:hover, .backspace:hover, .equal-sign:hover{
+    background-color: #FB908E;
+    color: #fff;
+}
+
+.operator:active, .all-clear:active, .percentage:active, .decimal:active, .backspace:active, .equal-sign:active {
+    background-color: #ffdfdf;
+    color: #FB908E;
+}
+
+img {
+    height: 25px;
+    width: 25px;
+    line-height: 45px;
+    padding: 9px 9px;
+    filter: invert(76%) sepia(79%) saturate(525%) hue-rotate(301deg) brightness(100%) contrast(97%);
+}
+
+img:hover {
+    filter: invert(100%) sepia(75%) saturate(50%) hue-rotate(0deg);
+}
+
+img:active {
+    filter: invert(76%) sepia(79%) saturate(525%) hue-rotate(301deg) brightness(100%) contrast(97%);
+}
